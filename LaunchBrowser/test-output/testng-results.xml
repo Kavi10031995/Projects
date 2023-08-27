@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-24T19:42:53 IST" name="Default suite" finished-at="2023-08-24T19:43:37 IST" duration-ms="43441">
+    <groups>
+    </groups>
+    <test started-at="2023-08-24T19:42:53 IST" name="Default test" finished-at="2023-08-24T19:43:37 IST" duration-ms="43441">
+      <class name="ChromeBrowser.Lg">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:ChromeBrowser.Lg@1bb5a082]" started-at="2023-08-24T19:42:53 IST" name="beforeTest" finished-at="2023-08-24T19:43:22 IST" duration-ms="28503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="FISlogin()[pri:1, instance:ChromeBrowser.Lg@1bb5a082]" started-at="2023-08-24T19:43:22 IST" name="FISlogin" finished-at="2023-08-24T19:43:25 IST" duration-ms="3436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FISlogin -->
+        <test-method signature="FISlogout()[pri:2, instance:ChromeBrowser.Lg@1bb5a082]" started-at="2023-08-24T19:43:25 IST" name="FISlogout" finished-at="2023-08-24T19:43:37 IST" duration-ms="11386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FISlogout -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:ChromeBrowser.Lg@1bb5a082]" started-at="2023-08-24T19:43:37 IST" name="afterTest" finished-at="2023-08-24T19:43:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- ChromeBrowser.Lg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
