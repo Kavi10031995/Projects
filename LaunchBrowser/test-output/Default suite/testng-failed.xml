@@ -3,13 +3,116 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ChromeBrowser.Frame1">
+      <class name="ChromeBrowser.Action4">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="operation"/>
+        </methods>
+      </class> <!-- ChromeBrowser.Action4 -->
+      <class name="ChromeBrowser.Action3">
+        <methods>
+          <include name="operation"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- ChromeBrowser.Action3 -->
+      <class name="ChromeBrowser.WebTable5">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="data"/>
+        </methods>
+      </class> <!-- ChromeBrowser.WebTable5 -->
+      <class name="ChromeBrowser.Lg">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="FISlogin"/>
+          <include name="afterTest"/>
+          <include name="FISlogout"/>
+        </methods>
+      </class> <!-- ChromeBrowser.Lg -->
+      <class name="ChromeBrowser.Action2">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="operation"/>
+        </methods>
+      </class> <!-- ChromeBrowser.Action2 -->
+      <class name="ChromeBrowser.Alert1">
         <methods>
           <include name="afterTest"/>
           <include name="operation"/>
           <include name="beforeTest"/>
         </methods>
-      </class> <!-- ChromeBrowser.Frame1 -->
+      </class> <!-- ChromeBrowser.Alert1 -->
+      <class name="ChromeBrowser.WebTable2">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="data"/>
+        </methods>
+      </class> <!-- ChromeBrowser.WebTable2 -->
+      <class name="ChromeBrowser.Alert2">
+        <methods>
+          <include name="operation"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- ChromeBrowser.Alert2 -->
+      <class name="ChromeBrowser.Action1">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="operation"/>
+        </methods>
+      </class> <!-- ChromeBrowser.Action1 -->
+      <class name="ChromeBrowser.WebTable3">
+        <methods>
+          <include name="afterTest"/>
+          <include name="data"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ChromeBrowser.WebTable3 -->
+      <class name="ChromeBrowser.TestNG">
+        <methods>
+          <include name="logout"/>
+          <include name="navigate"/>
+          <include name="dailyreports"/>
+          <include name="login"/>
+          <include name="open"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- ChromeBrowser.TestNG -->
+      <class name="ChromeBrowser.WebTable4">
+        <methods>
+          <include name="data"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ChromeBrowser.WebTable4 -->
+      <class name="ChromeBrowser.WebTable1">
+        <methods>
+          <include name="count"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- ChromeBrowser.WebTable1 -->
+      <class name="ChromeBrowser.ObjRepo">
+        <methods>
+          <include name="FISlogout"/>
+          <include name="FISlogin"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- ChromeBrowser.ObjRepo -->
+      <class name="ChromeBrowser.Action5">
+        <methods>
+          <include name="operation"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- ChromeBrowser.Action5 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
